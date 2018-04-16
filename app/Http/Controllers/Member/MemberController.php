@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\DB;
 
 class MemberController extends Controller
 {
-    //首页搜索学生ID
+    //首页搜索用户ID
     public function getMemberId(Request $request)
     {
         if($request->get("conference_id"))
